@@ -13,7 +13,6 @@ const Calculator = () => {
   };
   const handleAddition = (e) => {
     setResult(number1 + number2);
-
   };
 
   return (
@@ -56,6 +55,7 @@ const Calculator = () => {
             type="number"
             id="result"
             value={result}
+            readOnly
           />
         </div>
       </div>
@@ -64,3 +64,4 @@ const Calculator = () => {
 };
 
 export default Calculator;
+//inputa ya onchange ya da readonly value varken
